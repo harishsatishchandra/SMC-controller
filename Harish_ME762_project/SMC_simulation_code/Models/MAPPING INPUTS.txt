@@ -1,0 +1,8 @@
+The simulation model inputs are front wheel speed and steering angle.
+
+- DynFlatness generates desired forces on the front tire for tracking,
+ForceController_pacejka realises these forces by means of wheel speed and steering angle.
+
+- All the other controllers implements AXController_pacejka which translates
+the required longitudinal acceleration into a traction force and then again
+into front wheel speed.
