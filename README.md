@@ -1,9 +1,9 @@
 # Sliding mode controller for trajectory tracking
 
 The following two animations show the sliding mode controller in action for a single lane change and double lane change manoeuver. The red curve is the output that we get from a trajectory planner, which here is treated as the ground truth trajectory to follow. The green curve is the output of the trajectory tracker (sliding mode controller). The dashed lines are the overshoot that we get from the rear wheels.
-
+<p align="center">
 ![smc1_cropped](https://user-images.githubusercontent.com/19624843/69922347-9ad51980-1469-11ea-8484-017e435a9664.gif)*Single lane change*
-
+</p>
 ![smc2_cropped](https://user-images.githubusercontent.com/19624843/69922358-bb04d880-1469-11ea-8b88-028c6fa6d524.gif)*Double lane change*
 
 The implementation details are as follows - 
